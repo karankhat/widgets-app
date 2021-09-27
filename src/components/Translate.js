@@ -33,7 +33,7 @@ const Translate = () => {
             <Dropdown showPTag={false} label="Select a Language:" options={options} selected={language} onSelectedChange={setLanguage} />
             
             <hr />
-            <h3 className="ui header">Output:</h3>
+            <h3 className="ui header">Output</h3>
             <Convert text={text} language={language} />
         </div>
     );
